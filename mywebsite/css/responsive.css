@@ -199,6 +199,14 @@
     
         float: left;
     }
+    .advr{
+        flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    }
+    .contact{
+        height: 1100px;
+    }
 }
 
 @media (min-width: 520px) and (max-width: 780px)
@@ -274,6 +282,9 @@
         width: 100%;
     
         float: left;
+    }
+    .contact{
+        height: 800px;
     }
 }
 
@@ -351,5 +362,8 @@
         width: 100%;
     
         float: left;
+    }
+    .contact{
+        height: 620px;
     }
 }
