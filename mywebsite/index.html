@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Jsquare - Transforming Online Education</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo" ><img src="img/jsquare.png" alt="logo" onclick="$dc.loadhomepage();"></div> 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#courses" onclick="$dc.loadMenuCategories();">Courses</a></li>
+            <li><a href="#about" onclick="$dc.loadaboutpage();">About</a></li>
+            <li><a href="#contact" onclick="$dc.loadcontactpage();">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+        <form action="https://www.bing.com/search" method="get"  >
+            <input type="text"  id="search" name="q">
+            <button class="btn btn-sm">Search</button>
+        </form>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <div id="main-content"></div>
+    
+    <div class="footer">
+    <footer   class="background">
+        <p class="text-footer">
+            Copyright &copy; 2027 - www.jsquare.com - All rights reserved
+        </p>
+    </footer>
+</div>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script.js"></script>
+   
+    <script src="js/resp.js"></script>
+
+</body>
+
+</html>

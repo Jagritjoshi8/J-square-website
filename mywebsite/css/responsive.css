@@ -1,0 +1,355 @@
+@media (min-width: 1140px)
+{
+    .col-lg-3{
+         position: relative;
+        float: left;
+        border: 1px solid black;
+        /* background: rgba(0, 0, 0, 0.7) url('../img/HTML5-Icon.png');
+         background-size: cover;
+        */height: 300px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        
+        margin-right: 2%;
+        width:22%;
+}
+    
+    .c1{
+     background: rgba(0, 0, 0, 0.7) url('../img/HTML5-Iconn.png');
+         background-size: cover;
+    }
+
+    .c2{
+
+        background: rgba(0, 0, 0, 0.7) url('../img/css3-logo.jpg');
+         background-size: cover;
+
+    }
+
+    .c3{
+        background: rgba(0, 0, 0, 0.7) url('../img/javascript icon.png');
+         background-size: cover;
+
+
+    }
+
+    .c4{
+        background: rgba(0, 0, 0, 0.7) url('../img/python icon.png');
+         background-size: cover;
+
+
+    }
+
+    .c5{
+        background: rgba(0, 0, 0, 0.7) url('../img/c++ logoo.jpg');
+         background-size: cover;
+
+
+     }
+
+    .c6{
+        background: rgba(0, 0, 0, 0.7) url('../img/c logo.png');
+         background-size: cover;
+
+
+    }
+    
+    .c7{
+        background: rgba(0, 0, 0, 0.7) url('../img/java logo.jpg');
+         background-size: cover;
+
+
+    }
+    .c8{
+        background: rgba(0, 0, 0, 0.7) url('../img/bootstrap logo.jpg');
+         background-size: cover;
+
+
+    }
+
+
+
+
+    .footer{
+        margin-top:50px;
+        width: 100%;
+    
+        float: left;
+    }
+}
+
+
+
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 447px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #search{
+        width: 100%;
+    }
+    .burger{
+    display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+    
+    .text-big{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+   
+    .paras {
+    padding: 0px;
+}
+
+    .col-md-4{
+         position: relative;
+        float: left;
+        border: 1px solid black;
+         /*background: rgba(0, 0, 0, 0.7) url('../img/jsquare.png');
+         background-size: cover;*/
+        height: 300px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        
+        margin-right: 3%;
+        width:30%;
+    }
+
+     .c1{
+     background: rgba(0, 0, 0, 0.7) url('../img/HTML5-Iconn.png');
+         background-size: cover;
+    }
+
+    .c2{
+
+        background: rgba(0, 0, 0, 0.7) url('../img/css3-logo.jpg');
+         background-size: cover;
+
+    }
+
+    .c3{
+        background: rgba(0, 0, 0, 0.7) url('../img/javascript icon.png');
+         background-size: cover;
+
+
+    }
+    .c4{
+        background: rgba(0, 0, 0, 0.7) url('../img/python icon.png');
+         background-size: cover;
+
+
+    }
+
+    .c5{
+        background: rgba(0, 0, 0, 0.7) url('../img/c++ logoo.jpg');
+         background-size: cover;
+
+
+     }
+
+    .c6{
+        background: rgba(0, 0, 0, 0.7) url('../img/c logo.png');
+         background-size: cover;
+
+
+    }
+
+    .c7{
+        background: rgba(0, 0, 0, 0.7) url('../img/java logo.jpg');
+         background-size: cover;
+
+
+    }
+
+     .c8{
+        background: rgba(0, 0, 0, 0.7) url('../img/bootstrap logo.jpg');
+         background-size: cover;
+
+
+    }
+
+    .footer{
+        width: 100%;
+    
+        float: left;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 780px)
+{
+    .col-sm-6{
+         position: relative;
+        float: left;
+        border: 1px solid black;
+         /*background: rgba(0, 0, 0, 0.7) url('../img/jsquare.png');
+         background-size: cover;*/
+        height: 300px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        
+        margin-right: 3%;
+        width:46%;
+    }
+
+     .c1{
+     background: rgba(0, 0, 0, 0.7) url('../img/HTML5-Iconn.png');
+         background-size: cover;
+    }
+
+    .c2{
+
+        background: rgba(0, 0, 0, 0.7) url('../img/css3-logo.jpg');
+         background-size: cover;
+
+    }
+
+    .c3{
+        background: rgba(0, 0, 0, 0.7) url('../img/javascript icon.png');
+         background-size: cover;
+
+
+    }
+    .c4{
+        background: rgba(0, 0, 0, 0.7) url('../img/python icon.png');
+         background-size: cover;
+
+
+    }
+
+    .c5{
+        background: rgba(0, 0, 0, 0.7) url('../img/c++ logoo.jpg');
+         background-size: cover;
+
+
+     }
+
+    .c6{
+        background: rgba(0, 0, 0, 0.7) url('../img/c logo.png');
+         background-size: cover;
+
+
+    }
+
+    .c7{
+        background: rgba(0, 0, 0, 0.7) url('../img/java logo.jpg');
+         background-size: cover;
+
+
+    }
+
+     .c8{
+        background: rgba(0, 0, 0, 0.7) url('../img/bootstrap logo.jpg');
+         background-size: cover;
+
+
+    }
+
+    .footer{
+        width: 100%;
+    
+        float: left;
+    }
+}
+
+@media  (max-width: 520px)
+{
+    .col-xs-12{
+         position: relative;
+        float: left;
+        border: 1px solid black;
+        /* background: rgba(0, 0, 0, 0.7) url('../img/jsquare.png');
+         background-size: cover;*/
+        height: 300px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        
+        margin-right: 3%;
+        width:95%;
+    }
+
+     .c1{
+     background: rgba(0, 0, 0, 0.7) url('../img/HTML5-Iconn.png');
+         background-size: cover;
+    }
+
+    .c2{
+
+        background: rgba(0, 0, 0, 0.7) url('../img/css3-logo.jpg');
+         background-size: cover;
+
+    }
+
+    .c3{
+        background: rgba(0, 0, 0, 0.7) url('../img/javascript icon.png');
+         background-size: cover;
+
+
+    }
+
+    .c4{
+        background: rgba(0, 0, 0, 0.7) url('../img/python icon.png');
+         background-size: cover;
+
+
+    }
+
+    .c5{
+        background: rgba(0, 0, 0, 0.7) url('../img/c++ logoo.jpg');
+         background-size: cover;
+
+
+     }
+
+    .c6{
+        background: rgba(0, 0, 0, 0.7) url('../img/c logo.png');
+         background-size: cover;
+
+
+    }
+
+    .c7{
+        background: rgba(0, 0, 0, 0.7) url('../img/java logo.jpg');
+         background-size: cover;
+
+
+    }
+
+     .c8{
+        background: rgba(0, 0, 0, 0.7) url('../img/bootstrap logo.jpg');
+         background-size: cover;
+
+
+    }
+
+    .footer{
+        width: 100%;
+    
+        float: left;
+    }
+}
